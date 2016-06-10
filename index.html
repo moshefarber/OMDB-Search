@@ -6,13 +6,22 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>	
 </head>
 <body>
-	<h1>OMDB Movie Search</h1>
-	<form id="search">
+	<div class="searchElements">
+		<h1>OMDB Movie Search</h1>
+		<form id="search">
 		<input type="text" name="t" placeholder="Search Movie">
 		<input type="Submit">
-	</form>
-	<h2 id="movie-title"></h2>
-	<img id="poster"/>
+		</form>
+	</div>
+	<div class="searchResult">
+		<h2 id="movie-title"></h2>
+		<img id="poster"/>
+		<div class="details">
+			<h3 id="year-released"></h3>
+			<h3 id="main-cast"></h3>
+			<p id="plot"></p>
+		</div>
+	</div>
 <script src="script.js"></script>
 </body>
 </html>
