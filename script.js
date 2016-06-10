@@ -12,6 +12,9 @@ $(document).ready(function(){
       success: function(response) {
         $("#movie-title").html(response.Title);
         $("#poster").attr("src" , response.Poster);
+        $("#year-released").html("Date of Release: " + response.Released);
+        $("#main-cast").html("Main Cast: " + response.Actors );
+        $("#plot").html("Plot: " + response.Plot);
         console.log(response); 
         }     
     });

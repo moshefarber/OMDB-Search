@@ -1,3 +1,23 @@
-body{
+html{
+	background: url(images/film.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.searchElements{
 	text-align: center;
+}
+
+.searchResult{
+	margin-left: 5%;
+	width:50%;
+}
+
+.details{
+	float:right;
+	clear:right;
+	width:50%;
 }
